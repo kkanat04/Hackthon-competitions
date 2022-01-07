@@ -1,0 +1,137 @@
+.online__wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll ;
+}
+.online__wrap::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+.online__firstBox{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.online__firstText{
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+.online__secondBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.online__city{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.online__bish{
+    display: none;
+}
+.online__bish__active{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.online__bish__address{
+    width: 70%;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.online__bish__address p{
+    font-size: 25px;
+    color: white;
+}
+.online__bishSpan{
+    color:black;
+}
+
+
+
+.online__osh{
+    display: none;
+}
+.online__osh__active{
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.online__ques{
+    display: block;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.online__quesText{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+.online__openMod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 100px;
+    height: 35px;
+    font-size: 25px;
+    color: #419FB0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.online__openModP{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.online__closeQues{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 100px;
+    height: 35px;
+    font-size: 25px;
+    color: #419FB0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.online__closeQuesP{
+    font-weight: bold;
+    margin: 0;
+    padding: 0; 
+}
+.online__ques__active{
+    display: none;
+}

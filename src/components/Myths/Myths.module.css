@@ -1,0 +1,69 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-left: 80px;
+}
+.topDiv{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topText{
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+.topContext{
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+}
+.root{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabs{
+    width: 75%;
+    height: 110%;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+    margin-top: 2% !important;
+}
+.facts{
+    width: 100%;
+    color: black;
+    font-weight: bold;
+}
+.downBlock1{
+    width: 40%;
+    height: 90%;
+    margin: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.downBlock2{
+    width: 40%;
+    height: 90%;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    opacity: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.downBlock2::-webkit-scrollbar{
+    width: 0;
+    height: 0;  
+}

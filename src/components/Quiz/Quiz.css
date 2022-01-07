@@ -1,0 +1,144 @@
+.quizWrapper {
+    width: 100%;
+    height: 100%;
+    background: #596e9e;
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+}
+.quizParagraf {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.quizContent {
+    width: 70%;
+    margin-left: 2%;
+}
+.quizTestFirstNum {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+}
+
+.quizTest {
+    margin-bottom: 6%;
+}
+.quizTestSecondNum {
+    color: #9ba8c5;
+    font-size: 30px;
+}
+.quizVarintyOtvetov {
+    background: #7a8bb1;
+    color: white;
+    width: 60%;
+    height: auto;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.quizVarintyOtvetov:hover {
+    background: #3b3e46;
+}
+.quizQuestionOnTest {
+    color: white;
+    margin-bottom: 3%;
+}
+.QuizDalee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #596e9e;
+    width: 10%;
+    margin-left: 59%;
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+/* =========================================================== */
+
+.quizResultThree {
+    color: white;
+
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.quizScore {
+    color: red;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quizRecomendatsii {
+    position: relative;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.quizRecomendatsii img {
+    position: absolute;
+    height: 60%;
+    top: 50%;
+    left: 0%;
+}
+
+.quizImgVverch {
+    position: absolute !important;
+    top: 50%;
+    left: 0%;
+    height: 80%;
+}
+
+.quizTestImg {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quizimgGirl {
+    width: 540px;
+}
+.quizBtnRefresh {
+    cursor: pointer;
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}

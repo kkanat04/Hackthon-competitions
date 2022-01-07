@@ -1,0 +1,26 @@
+.stat__row {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.stat__item {
+    flex: 0 1 50%;
+}
+.statisticInfrm .MuiSelect-selectMenu {
+    padding: 15px;
+    color: #fff;
+}
+.statisticInfrm label {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0 0 0 15px;
+    color: #fff;
+}
+.statisticInfrm .Mui-focused {
+    color: #ccc !important;
+}
+.statisticInfrm .MuiInput-underline:after {
+    border-bottom: 2px solid #fff;
+}

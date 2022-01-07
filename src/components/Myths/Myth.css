@@ -1,0 +1,13 @@
+.tab{
+    width: 400px !important;
+}
+.MuiTab-root{
+    border:1px solid white !important;
+    max-width: 500px !important;
+    color: white !important;
+    font-weight: bold !important;
+    margin-top: 5px !important;
+}
+/* .MuiTabScrollButton-vertical{
+    height: 40px !important;
+} */
